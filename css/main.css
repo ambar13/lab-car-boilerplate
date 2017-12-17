@@ -1,11 +1,19 @@
 /* Los estilos de tu proyecto */
+* {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.navbar {
+  background-color: white;
+}
 .bg-image1 {
   background-image: url('../assets/images/taxi.jpg');
   height: 500px;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:center;
   background-size: cover;
-  width: 100%;
+  
   margin-top: 50px;
 }
 .bg-orange{
@@ -18,20 +26,5 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .hero {
-    height: 440px;
-  }
- }
-
-@media (min-width: 992px) {
-  .hero {
-    height: 660px;  
-  }
-
-  .galery {
-    height: 460px; 
-  }
+  background-position: unset;
 }
