@@ -9,12 +9,14 @@
 }
 .bg-image1 {
   background-image: url('../assets/images/taxi.jpg');
-  height: 500px;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position:center;
   background-size: cover;
-  
-  margin-top: 50px;
+  margin-top: 0;
+}
+.row {
+  margin: 0;
 }
 .bg-orange{
   background-color: #FFC107;
@@ -25,7 +27,9 @@
   border: 3px solid white;
   border-left: 0px;
 }
-
+.opacidad {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -35,4 +39,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: unset;
+}
+
+footer {
+  background-color: #2B2B2B;
 }
