@@ -39,9 +39,9 @@
   </header>
     <!-- fin menu desplegable -->
     <!-- seccion 1 -->
-    <section class="bg-image1 container-fluid">
+    <section class="bg-image1 container container-fluid">
       <div class="row">
-        <div class="bg-orange col-xs-10 col-md-2 col-xs-offset-3 col-sm-5 col-sm-offset-7">
+        <div class="bg-orange col-xs-9 col-xs-offset-3 col-sm-5 col-sm-offset-7">
           <!-- Mobile -->
           <div class="visible-xs">
             <p class="h1">Comienza a viajar con <img class="navbar-brand" src="assets/images/logoBlanco.png"></p>
@@ -62,7 +62,7 @@
     <!-- Seccion 2 -->
     <section class="container-fluid bg-orange">
       <div class="row">
-        <div class="">
+        <div class="col-sm-10">
           <!-- mobile -->
           <div class="visible-xs">
             <div class="border">
@@ -85,16 +85,16 @@
         </div>
       </div>
     </section>
-    <!-- tercera seccion  -->
+    <!--  seccion  3 -->
     <section class="bg-image2 container-fluid"> 
-      <div class="opacidad">
+      <div class="opacidad col-xs-12 col-sm-5 col-sm-offset-8">
         <p>Conduce cuando quieras</p>
         <p>LabCar es una opcion flexible para alcanzar tus metas<br>
         financieras</p>
         <button class="btn btn-warning">Conviertete en conductor</button>
       </div>
     </section>
-    <!-- cuarta seccion -->
+    <!-- seccion 4-->
     <section class="bg-orange container-fluid">
     <div class="row">
       <form class="form-horizontal">
@@ -167,8 +167,14 @@
                 <li><i class="fa fa-play"></i></li>
               </ul>
             </div>
-            <img src="assets/images/appstore.png" alt="">
-            <img src="assets/images/enBadgeWebGeneric.png" alt="">
+            <div class="visible-xs">
+              <img src="assets/images/enBadgeWebGeneric.png" alt="generic">
+              <img src="assets/images/appstore.png" alt="appstore">
+            </div>
+            <div class="visible-md visible-sm visible-lg">
+              <img src="assets/images/appstore.png" alt="appstore">
+              <img src="assets/images/enBadgeWebGeneric.png" alt="generic">
+            </div>
           </div>
           <hr>
         </div>
